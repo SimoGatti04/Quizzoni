@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 1200px;
+    margin: 0rem auto;
+    padding: 0.7rem;
+    background: rgb(18, 18, 18);
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    padding: 3rem;
+}
+
+#quiz-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(24rem, 24rem));
+    gap: 20px;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.quiz-item {
+    text-align: center;
+    width: 23.5rem;
+    border: 1px solid red;
+}
+
+.quiz-item img {
+    text-align: center;
+}
+
+.angle-image {
+    width: 20rem;
+    height: 6rem;
+}
+
+.gamedle-text {
+    font-family: 'Press Start 2P', serif;
+    background-image: linear-gradient(to bottom, #f78528 67%, #93470a 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3.2rem;
+    width: 24rem;
+    padding-top: 1.5rem;
+}
+
+.songless-text {
+    font-family: 'Arial', serif;
+    font-size: 3.8rem;
+    width: 24rem;
+    font-weight: bold;
+    color: white;
+    padding-top: 0.6rem;
+    background: transparent;
+}
+
+.heardle-image {
+    text-align: center;
+    width: 23rem;
+    height: 4rem;
+    padding: 1rem;
+}
+
+.spotle-image{
+    width: 23rem;
+    object-fit: cover;
+    height: 6rem;
+}
+
+.wordle-image{
+    width: 23rem;
+    object-fit: cover;
+    height: 4rem;
+    padding-top: 1.4rem;
+}
+
+
+
+.quiz-item a {
+    text-decoration: none;
+}
+
+.quiz-item a:visited {
+    text-decoration: none;
+}
+
