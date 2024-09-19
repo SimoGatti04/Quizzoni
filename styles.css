@@ -76,6 +76,81 @@ h1 {
     padding-top: 1.4rem;
 }
 
+.quordle-image {
+    margin-left: -3.5rem;
+    width: 30rem;
+    object-fit: cover;
+    height: 3.0rem;
+    padding-top: 1.5rem;
+    padding-bottom: 0.7rem;
+}
+
+.chronophoto-image{
+    width: 30rem;
+    object-fit: cover;
+    height: 4rem;
+    margin-left: -3.3rem;
+    padding-top: 0.6rem;
+}
+
+.framedle-text {
+    text-transform: lowercase;
+    font-weight: 900;
+    letter-spacing: -8.5px;
+    font-family: 'Anton', sans-serif;
+    font-size: 5rem;
+    color: white;
+    background-color: rgb(185 28 28);
+    width: 19rem;
+    margin-left: 2.25rem;
+}
+
+.framedle-text::first-letter {
+    text-transform: uppercase;
+}
+
+.guesstheage-text::first-letter {
+    text-transform: uppercase;
+}
+.guesstheage-text {
+    font-weight: 900;
+    color: white;
+    text-transform: lowercase;
+    font-size: 3.2rem;
+    padding-top: 0.8rem;
+    padding-bottom: 1rem;
+}
+
+.flagle-text::first-letter {
+    text-transform: uppercase;
+}
+.flagle-text {
+    font-weight: 900;
+    letter-spacing: .01em;
+    text-align: center;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-size: 5rem;
+    color: white;
+    text-transform: lowercase;
+}
+
+@font-face {
+    font-family: 'Pullman';
+    src: url('images/fonts/pullman/pullman.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.totoquiz-text::first-letter {
+    text-transform: uppercase;
+}
+.totoquiz-text {
+    font-family: 'pullman', sans-serif;
+    color: #005e39;
+    font-size: 5rem;
+    text-transform: lowercase;
+    padding-top: 0.7rem;
+}
 
 
 .quiz-item a {
