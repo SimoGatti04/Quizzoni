@@ -24,7 +24,6 @@ h1 {
 .quiz-item {
     text-align: center;
     width: 23.5rem;
-    /*border: 1px solid red;*/
 }
 
 .quiz-item img {
@@ -152,6 +151,139 @@ h1 {
     padding-top: 0.7rem;
 }
 
+.rankdle-image {
+    width: 18rem;
+}
+
+.nerdle-text {
+    font-family: Quicksand, sans-serif;
+    text-transform: lowercase;
+    color: #820458;
+    font-size: 5rem;
+    font-weight: 300;
+}
+
+.globle-text {
+    font-family: Montserrat, sans-serif;
+    font-weight: 800;
+    font-size: 3rem;
+    color: white;
+    padding-top: 1.7rem;
+    padding-bottom: 1.7rem;
+}
+
+.globle-capitali-text {
+    font-family: Montserrat, sans-serif;
+    font-weight: 800;
+    font-size: 3rem;
+    color: white;
+}
+
+.guessthegame-text {
+    font-size: 3rem;
+    text-transform: lowercase;
+    color: white;
+    font-weight: 600;
+    padding-top: 1.3rem;
+    padding-bottom: 1.3rem;
+}
+
+.guessthegame-text::first-letter {
+    text-transform: uppercase;
+}
+
+.pokedoku-image{
+    width: 16rem;
+}
+
+.squirdle-text::first-letter {
+    text-transform: uppercase;
+}
+
+.squirdle-text {
+    font-family: 'Telex', sans-serif;
+    color: rgb(155, 211, 212);
+    text-align: center;
+    text-transform: lowercase;
+    font-size: 3.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1.2rem;
+    font-weight: bold;
+}
+
+.costcodle-text {
+    font-family: "VT323", monospace;
+    color: rgb(227, 42, 54);
+    font-size: 5.5rem;
+}
+
+.tradle-image{
+    width: 19rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.travle-text{
+    text-transform: lowercase;
+    color: #d4be98;
+    font-size: 4.7rem
+}
+
+@font-face {
+    font-family: 'Minecrafter';
+    src: url('images/fonts/minecrafter/Minecrafter.Alt.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.minecraftle-text {
+    font-family: Minecrafter, sans-serif;
+    font-size: 3rem;
+    color: #c6c6c6;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.nflxdle-text {
+    font-family: Roboto, sans-serif;
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+    text-align: center;
+    font-weight: 700;
+    color: red;
+    font-size: 3.5rem;
+}
+
+.contexto-text {
+    font-family: Nunito, sans-serif;
+    font-weight: 800;
+    color: white;
+    font-size: 3.4rem;
+}
+
+.statele-text {
+    color: rgb(248, 250, 252);
+    font-size: 3.4rem;
+    font-weight: 700;
+    line-height: 4.6rem;
+}
+
+.colorfle-text::first-letter {
+    text-transform: uppercase;
+}
+
+.colorfle-text {
+    color: rgb(222, 220, 217);
+    font-family: Raleway, sans-serif;
+    font-weight: 600;
+    font-size: 3.8rem;
+    text-transform: lowercase;
+}
+
+.yeezle-image {
+    width: 18rem;
+    margin-bottom: -3rem;
+}
 
 .quiz-item a {
     text-decoration: none;
