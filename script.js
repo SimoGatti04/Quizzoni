@@ -26,7 +26,10 @@ const quizzes = [
     { name: 'CONTEXTO', url: 'https://contexto.me', display: 'text', textClass: 'contexto-text' },
     { name: 'STATELE', url: 'https://statele.teuteuf.fr', display: 'text', textClass: 'statele-text' },
     { name: 'COLORFLE', url: 'https://colorfle.com', display: 'text', textClass: 'colorfle-text' },
-    { name: 'YEEZLE', url: 'https://yeezle.xyz', display: 'image', image: 'images/yeezle.png', imageClass: 'yeezle-image' }
+    { name: 'YEEZLE', url: 'https://yeezle.xyz', display: 'image', image: 'images/yeezle.png', imageClass: 'yeezle-image' },
+    { name: 'WHO ARE YA', url: 'https://playfootball.games/who-are-ya/big-5/', display: 'text', textClass: 'whoareya-text' },
+    { name: 'MISSING 11', url: 'https://missing11.com/', display: 'text', textClass: 'missing11-text' },
+    { name: 'GEOGUESSR', url: 'https://www.geoguessr.com/', display: 'image', image: 'images/geoguessr.svg', imageClass: 'geoguessr-image' }
 ];
 
 
