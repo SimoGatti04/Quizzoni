@@ -5,10 +5,15 @@
   "main": "index.html",
   "scripts": {
     "start": "live-server",
-    "build": "echo 'No build step required for static site'"
+    "build": "webpack"
   },
   "private": true,
   "devDependencies": {
-    "live-server": "^1.2.1"
+    "live-server": "^1.2.1",
+    "webpack": "^5.98.0",
+    "webpack-cli": "^6.0.1"
+  },
+  "dependencies": {
+    "firebase": "^11.3.1"
   }
 }
