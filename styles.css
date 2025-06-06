@@ -478,3 +478,14 @@ h1 {
     width: 13rem;
     margin: -1rem;
 }
+
+.artistle-image {
+    height: 4.5rem;
+    padding-top: 0.75rem;
+}
+
+.guessthetransfer-image {
+    height: 10rem;
+    margin-bottom: -5rem;
+    margin-top: -2.5rem;
+}

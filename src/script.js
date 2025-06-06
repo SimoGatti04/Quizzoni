@@ -46,7 +46,8 @@ const quizzes = [
     { name: 'Chronogram', url: 'https://chronogram.chat/', display: 'text', textClass: 'chronogram-text' },
     { name: 'Google Feud', url: 'https://googlefeud.com/', display: 'image', image: 'images/googlefeud.svg', imageClass: 'googlefeud-image' },
     { name: 'Intesa Vincente', url: 'https://www.ed0.it/games/intesavincente/', display: 'image', image: 'images/intesavincente.png', imageClass: 'intesavincente-image' },
-
+    { name: 'Artistle', url: 'https://artistle.co/', display: 'image', image: 'images/artistle.svg', imageClass: 'artistle-image' },
+    { name: 'Guess the Transfer', url: 'https://simogatti04.github.io/GuessByTransfer/', display: 'image', image: 'images/guessthetransfer.png', imageClass: 'guessthetransfer-image' },
 ];
 
 import { getFirestore, doc, getDoc, setDoc, updateDoc } from "firebase/firestore";
